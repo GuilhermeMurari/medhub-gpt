@@ -12,6 +12,9 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@hono/node-server": "^1.14.3",
+    "@supabase/supabase-js": "^2.49.9",
+    "dotenv": "^16.5.0",
     "hono": "^4.7.11",
     "pg": "^8.16.0",
     "reflect-metadata": "^0.2.2",

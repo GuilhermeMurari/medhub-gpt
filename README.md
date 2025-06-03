@@ -22,3 +22,5 @@ cd backend
 npm install
 npm run dev
 ```
+
+Crie um arquivo `.env` na pasta `backend/` com a variável `SUPABASE_KEY` definida. Utilize o valor disponibilizado no painel do Supabase.
