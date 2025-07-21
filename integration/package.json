@@ -1,0 +1,19 @@
+{
+  "name": "integration",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "NODE_PATH=../backend/node_modules jest --runInBand"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "axios": "^1.6.7",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "pg-mem": "^3.0.5",
+    "bcryptjs": "^2.4.3",
+    "typeorm": "0.3.24"
+  },
+  "type": "module"
+}
