@@ -1,7 +1,7 @@
-import { createClient } from '@supabase/supabase-js';
-import 'dotenv/config';
+import { createClient, SupabaseClient } from '@supabase/supabase-js';
 
-export const supabase = createClient(
-  process.env.SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-);
+const supabaseUrl = 'https://lpjdplavtuwehpincxsm.supabase.co';
+const supabaseKey = process.env.SUPABASE_KEY;
+
+export const supabase: SupabaseClient | undefined =
+  supabaseKey ? createClient(supabaseUrl, supabaseKey) : undefined;
